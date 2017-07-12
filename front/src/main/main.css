@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* -------------------------------------------------------------------
+FONTS
+------------------------------------------------------------------- */
+/*@font-face {
+	font-family: Raleway-Regular;
+	src: url("./fonts/Raleway-Regular.ttf") format('truetype');
+}*/
+* {
+  /* Correction de la difference de gestion des marges par défaut entre Firefox et IE */
+  margin: 0;
+  padding: 0;
+  /* On met un fading sur tous les changements de background */
+  -webkit-transition: background 75ms linear,
+ color 0ms linear;
+  -moz-transition: background 75ms linear,
+ color 0ms linear;
+  -o-transition: background 75ms linear,
+ color 0ms linear;
+  -ms-transition: background 75ms linear,
+ color 0ms linear;
+  transition: background 75ms linear,
+ color 0ms linear;
+  -webkit-font-smoothing: antialiased; }
+
+/* -------------------------------------------------------------------
+CLASSES COMMUNES
+------------------------------------------------------------------- */
