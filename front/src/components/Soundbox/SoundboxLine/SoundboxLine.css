@@ -1,0 +1,128 @@
+/* -------------------------------------------------------------------
+IMPORTS
+------------------------------------------------------------------- */
+/* -------------------------------------------------------------------
+AUTRES DEFINITIONS
+------------------------------------------------------------------- */
+.lineContent {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 100px;
+  cursor: pointer;
+  border-top: 1px solid #ffffff; }
+  .lineContent .num {
+    position: relative;
+    float: left;
+    top: 10px;
+    width: 76px;
+    height: 76px;
+    font-family: "helveticaneue-ultraligcond";
+    font-size: 50px;
+    line-height: 76px;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 40px; }
+    .lineContent .num .text {
+      width: 76px;
+      height: 76px;
+      display: table-cell;
+      vertical-align: middle; }
+  .lineContent .info {
+    position: relative;
+    float: left;
+    width: 70%; }
+    .lineContent .info .contentInfo {
+      height: 100px;
+      display: table-cell;
+      vertical-align: middle; }
+      .lineContent .info .contentInfo .hashtag {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 46px;
+        line-height: 46px;
+        font-weight: bold;
+        display: block; }
+      .lineContent .info .contentInfo .text {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        line-height: 20px;
+        font-weight: normal;
+        font-style: italic;
+        display: block; }
+      .lineContent .info .contentInfo .picto {
+        position: absolute;
+        right: 40px;
+        width: 40px;
+        height: 100%; }
+      .lineContent .info .contentInfo .loader {
+        position: absolute;
+        right: 40px;
+        width: 40px;
+        height: 100%;
+        display: none; }
+
+.lineContent:nth-child(odd) {
+  color: #ffffff;
+  background: #2abe8b; }
+  .lineContent:nth-child(odd) .num {
+    border: 2px solid #ffffff; }
+  .lineContent:nth-child(odd) .picto {
+    position: absolute;
+    right: 40px;
+    width: 40px;
+    height: 100%;
+    background: url("../../../main/images/btn_play_white.png") no-repeat left center;
+    background-size: 40px 45px; }
+  .lineContent:nth-child(odd) .loader {
+    position: absolute;
+    right: 40px;
+    width: 40px;
+    height: 100%;
+    background: url("../../../main/images/picto_sound_white.png") no-repeat left center;
+    background-size: 40px 40px;
+    display: none; }
+
+.lineContent:nth-child(even) {
+  color: #013a26;
+  background: #c9fbea; }
+  .lineContent:nth-child(even) .num {
+    border: 2px solid #013a26; }
+  .lineContent:nth-child(even) .picto {
+    position: absolute;
+    right: 40px;
+    width: 40px;
+    height: 100%;
+    background: url("../../../main/images/btn_play_green.png") no-repeat left center;
+    background-size: 40px 45px; }
+  .lineContent:nth-child(even) .loader {
+    position: absolute;
+    right: 40px;
+    width: 40px;
+    height: 100%;
+    background: url("../../../main/images/picto_sound_green.png") no-repeat left center;
+    background-size: 40px 40px;
+    display: none; }
+
+.lineContent:nth-child(even):hover {
+  color: #ffffff; }
+  .lineContent:nth-child(even):hover .num {
+    border: 2px solid #ffffff; }
+  .lineContent:nth-child(even):hover .picto {
+    position: absolute;
+    right: 40px;
+    width: 40px;
+    height: 100%;
+    background: url("../../../main/images/btn_play_white.png") no-repeat left center;
+    background-size: 40px 45px; }
+  .lineContent:nth-child(even):hover .loader {
+    position: absolute;
+    right: 40px;
+    width: 40px;
+    height: 100%;
+    background: url("../../../main/images/picto_sound_white.png") no-repeat left center;
+    background-size: 40px 40px;
+    display: none; }
+
+.lineContent:hover {
+  background: #013a26; }
