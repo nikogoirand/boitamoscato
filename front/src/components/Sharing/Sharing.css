@@ -1,0 +1,25 @@
+/* -------------------------------------------------------------------
+IMPORTS
+------------------------------------------------------------------- */
+/* -------------------------------------------------------------------
+AUTRES DEFINITIONS
+------------------------------------------------------------------- */
+/*
+ * PARTAGE
+ */
+#sharing {
+  float: left;
+  width: 100%;
+  text-align: center;
+  padding: 5px 0 0 0; }
+  #sharing UL {
+    display: inline-block; }
+    #sharing UL LI {
+      float: left;
+      padding: 0 10px; }
+      #sharing UL LI div[role="button"] {
+        outline: none; }
+      #sharing UL LI .SocialMediaShareCount {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: white; }
