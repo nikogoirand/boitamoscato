@@ -1,13 +1,12 @@
 // IMPORT DES PACKAGES ET LIBRAIRIES
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Routes from './containers/Routes/Routes';
+import Header from './components/Header/Header.js';
 // IMPORT DES FICHIERS CSS 
 import './main/main.css';
 
-const element = <h1>Hello, world</h1>;
 ReactDOM.render(
-  element,
-  document.getElementById('root')
+	<Header />,
+	document.getElementById('global-container')
 );
 

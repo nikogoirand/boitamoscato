@@ -2,26 +2,41 @@
 /* -------------------------------------------------------------------
 FONTS
 ------------------------------------------------------------------- */
-/*@font-face {
-	font-family: Raleway-Regular;
-	src: url("./fonts/Raleway-Regular.ttf") format('truetype');
-}*/
+/*-- HELVETICA ULTRA LIGHT COND --*/
+@font-face {
+  font-family: "helveticaneue-ultraligcond";
+  src: url("./fonts/helveticaneue-ultraligcond.ttf") format("truetype"); }
+
+/* -------------------------------------------------------------------
+REDEFINITION D'ELEMENTS
+------------------------------------------------------------------- */
 * {
   /* Correction de la difference de gestion des marges par défaut entre Firefox et IE */
   margin: 0;
   padding: 0;
   /* On met un fading sur tous les changements de background */
-  -webkit-transition: background 75ms linear,
- color 0ms linear;
-  -moz-transition: background 75ms linear,
- color 0ms linear;
-  -o-transition: background 75ms linear,
- color 0ms linear;
-  -ms-transition: background 75ms linear,
- color 0ms linear;
-  transition: background 75ms linear,
- color 0ms linear;
+  -webkit-transition: background 100ms linear, color 0ms linear;
+  -moz-transition: background 100ms linear, color 0ms linear;
+  -o-transition: background 100ms linear, color 0ms linear;
+  -ms-transition: background 100ms linear, color 0ms linear;
+  transition: background 100ms linear, color 0ms linear;
   -webkit-font-smoothing: antialiased; }
+
+IMG {
+  border: 0; }
+
+/* Définition des liens */
+A, A:hover {
+  text-decoration: none; }
+
+FORM, INPUT, TEXTAREA, SELECT {
+  border: none;
+  background: none;
+  outline: none;
+  -webkit-appearance: none; }
+
+UL, LI, OL {
+  list-style-type: none; }
 
 /* -------------------------------------------------------------------
 CLASSES COMMUNES
